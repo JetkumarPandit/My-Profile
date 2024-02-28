@@ -5,6 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>professionalSummary</title>
     <style>
+
+       *{
+        border: 5px; border-color: blue;
+       }
+        #home{
+          
+            /* border-left-style: dotted;
+            border-width: 5px;
+            border-color: red; */
+            border: 5px solid rgb(190, 187, 187);
+        }
+        
+        #summary{
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: underline;
+            text transform:border: ;
+
+        }
         
         .list{
             color: green;
@@ -14,21 +33,27 @@
             color: darkred;
             font-weight: 600;
         }
+        #Agile{
+            color: aliceblue;
+            background-color: brown;
+        }
 
     </style>
 </head>
 <body>
-    <h2 style="color: red;">Professional Summary</h2>
+    <section id="home">
+    <h2 id="summary">Professional Summary</h2>
     <ul>
         <li>Ability to work with people at all levels in the program in the Chrome Developer Tool for debugging and troubleshooting the code.</li>
         <li class="list">Experience on working with version control system - GIT and GitHub</li>
         <li class="list">Experience working with JIRA for user stories and bug tracking</li>
         <li>Strong Debugging & Troubleshooting code experience using Chrome Developer Tool</li>
         <li class="list">Working exposure on ID's like VS Code and Notepad++</li>
-        <li>Good working experience under Agile methodologies environment</li>
+        <li>Good working experience under <span id="Agile">Agile methodologies</span>  environment</li>
         <li>Experience in using Chrome Developer Tool for debugging and Troubleshooting the code</li>
         <li>Knowledge of NodeJS</li>
         <li id="passage">Ability to work with people at all levels in the program in the Chrome Developer Tool for debugging and troubleshooting the code.</li>
     </ul>
+</section>
 </body>
 </html>
