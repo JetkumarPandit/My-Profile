@@ -92,7 +92,8 @@
   }
   #container{
         width: 800px;
-        margin: 20px auto;
+        margin: 1px auto;
+        margin-top: 100px;
   }
   #fixlogo{
     position: fixed;
