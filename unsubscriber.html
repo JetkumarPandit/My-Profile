@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>subscriber</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        #bodyy{
+            width: 400px;
+            height: 550px;
+            border: 1px solid rgb(23, 21, 21);
+            border-radius: 10px;
+            margin: 20px auto;
+
+        }
+        #testareas{
+            width: 350px;
+            height: 180px;
+            margin: 20px;
+            padding-left: 20px;
+            padding-top: 20px;
+            background-color: rgba(76, 5, 240, 0.725);
+            color: white;
+            border-radius: 10px;
+           
+        }
+        #star{
+            color: red;
+        }
+        #mail{
+            margin-left: 15px;
+        }
+        #mailtext{
+            width: 350px;
+            height: 27px;
+            margin-left: 15px;
+            border-radius: 8px;
+        }
+        #reason{
+            margin-left: 15px;
+        }
+        #reasontext{
+            width: 350px;
+            height: 50px;
+            margin-left: 15px;
+            border-radius: 8px;
+        }
+        #btunscri{
+            left: 280px;
+            top: 30px;
+            position: relative;
+            border-radius: 10px;
+
+        }
+        #heading{
+            margin-left: 15px;
+        }
+    </style>
+</head>
+<body id="bodyy">
+    <h2 id="heading">subscriber</h2>
+    <hr>
+    <textarea  name="" id="testareas" cols="50" rows="10">
+We're sorry to see you go, but hey, no hard
+feelings, hopefully we will see you back
+one day.
+Please fill in your email address in order 
+to unsubscribe from the list.
+You will receive an email to confirm your
+unsubscription, just to make sure this is
+not an accident or somebody else tries to
+unsubscribe you.</textarea>
+    <br>
+
+    <section>
+        <label for="" id="mail">Email <span id="star">*</span></label> <br>
+        <input  id="mailtext" type="text">
+    </section>
+<br>
+   <section> <label id="reason" for="">Unsubscribe reason</label><br>    
+    <input id="reasontext" type="text" placeholder="Unsubscribe reason">
+</section>
+<br>
+   <section id="btunscri">
+     <button>Unsubscribe</button>
+   </section>
+
+
+
+</body>  
+</html>
